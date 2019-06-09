@@ -10,26 +10,18 @@
         <h1>Processing project by Antonio Meloni</h1>
         <script type="text/processing">
 
- void setup() {
-              size(220,220);
+void setup() {
+              size(230,240);
               background(0);
             }
-            void draw(){      
-                fill (127, 255, 212,20);                   	
-                pushMatrix();
-                translate(60, 60);
-                rotate(radians(frameCount * 3));
-                ellipse (40,40,40,40); ;
-                popMatrix();
-                //
+            void draw(){                                  
                 fill (0, 123, 184,20);   
-                noStroke();
                 pushMatrix();
                 translate(70, 70);
                 rotate(radians(frameCount * 4));
                 ellipse (50,50,50,50); ;
-                popMatrix();
-                //
+                popMatrix(); 
+                //            
                 fill (127, 224, 230,20);  
                 pushMatrix();
                 translate(80, 80);
@@ -37,8 +29,7 @@
                 ellipse (60,60,60,60); ;
                 popMatrix();
                 //
-                fill (65, 105, 225,20);  
-                noStroke();
+                fill (65, 105, 225,20);                
                 pushMatrix();
                 translate(90, 90);
                 rotate(radians(frameCount * 6));
@@ -52,16 +43,15 @@
                 ellipse (80,80,80,80);
                 popMatrix();
                 //
-                fill (0, 255, 255,20); 
-                noStroke();
+                fill (0, 255, 255,20);              
                 pushMatrix();
                 translate(110, 110);
                 rotate(radians(frameCount * 3));
                 ellipse (90,90,90,90); ;
                 popMatrix();
             
-            }
-            
+            }         
+                 
           </script>
         <canvas></canvas>
     </body>
